@@ -1,0 +1,42 @@
+# Environnement virtuel
+.env/
+venv/
+ENV/
+env/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# Logs
+*.log
+
+# Fichiers médias statiques
+/media/
+staticfiles/
+static/
+
+# Config et secrets
+*.env
+*.ini
+*.cfg
+secrets.json
+
+# Cache Django
+*.pot
+*.pyc
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Autres fichiers temporaires
+*.bak
+*.swp
